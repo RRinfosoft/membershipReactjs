@@ -58,8 +58,8 @@ const NewsFunction2 = (item) => {
         <>
             <Col sm={6} className="NewsFunction-second">
                 <p className="item-data2">{item.data}</p>
-                <div className="News-second">
-                    <img className="News-second2" src={item.pic} />
+                <div className="News-second2">
+                    <img className="News-second" src={item.pic} />
                 </div>
                 <p>{item.para}</p>
                 <p className="subpara">{item.subpara}</p>
